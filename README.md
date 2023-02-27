@@ -6,4 +6,5 @@ We will also will review white space collapsing in the editor but the rendering 
 
 We review also how to use emmet to provid text place holder using Lorem Ipsum by typing lorem into the content between element tags. You can limit how many words you want to create by adding the number after the word lorem. Example: lorem50 to get 50 word filled <br/>
 
-We review the basics on images. Images require attributes of src and alt. The source is the image file location and alt is text in case the image cannot be rendered or for text only browsers and accessibility. We also review relative and absolute paths to src the image file location.
+We review the basics on images. Images require attributes of src and alt. The source is the image file location and alt is text in case the image cannot be rendered or for text only browsers and accessibility. We also review relative and absolute paths to src the image file location.<br/>
+To use images for commercial or production sites, you will need to use royalty free image from sites like: Pexels, Pixabay or Gratisography
