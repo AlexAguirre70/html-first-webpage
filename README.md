@@ -74,14 +74,17 @@ Forms are used to collect user information and can be created using the form tag
 * method - what method to use to send the data
 <br/>
 <br/>
+
 Forms also take lables and different types of input fields:
 <br/>
 <br/>
+
 * text - single line of text
 * textarea - more than 1 line of text
 * radio buttons - can only select one
 * checkboxes - can select more than one
 * select - from a list provided
+
 <br/>
 the **input fields** also takes an attribute of name. The name represents the key for the data in that field. <br/> 
 example: name="firstName", so when data is sent it will be firstName:Alex
