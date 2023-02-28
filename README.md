@@ -73,6 +73,7 @@ Forms are used to collect user information and can be created using the form tag
 * method - what method to use to send the data
 <br/>
 Forms also take lables and different types of input fields:
+<br>
 * text - single line of text
 * textarea - more than 1 line of text
 * radio buttons - can only select one
