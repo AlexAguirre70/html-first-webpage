@@ -19,6 +19,12 @@ To add comments we need to use the "!-- element --" insdie the angle brackets. Y
 
 ### External, Internal and Single Page links
 To add a link we need to use the a element tag that takes an href attribute that navigates to where you want to send the user. It can also set the target attribute to load the content on a blank new page, or on the existing page.<br/>
-To navigate to an section within the same page, we need to add the id attribute to the image and give it a name. Then in the a tag reference that id in the href using the hashtag and name. example: href="#udemy1"
+To navigate to an section within the same page, we need to add the id attribute to the image and give it a name. Then in the a tag reference that id in the href using the hashtag and name. example: href="#udemy1"<br/><br/>
+
+You also add an empty/dummy link. This is simply a link that does not navigate anywhere. It is simply a placeholder to add the href later. We insert the # for the time being. <br/><br/>
+
+You can also wrap an image or a button rather than text with the a tag. When hovering the mouse pointer over it, it changes the icon to the clickable hand
+<br/><br/>
+
 
 
