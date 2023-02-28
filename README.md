@@ -61,7 +61,10 @@ Ordered require the ol tag and have different type of list-style-types. You can 
 <br/><br/>
 
 ### Tables
-
+To create a table, we need to use the Table element and requires 3 things
+* th - table head
+* tr - table row
+* td - table column
 <br/><br/>
 
 ### Forms
