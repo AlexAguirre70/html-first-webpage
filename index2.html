@@ -72,7 +72,7 @@
         <br>
         <!-- Unordered and ordered lists -->
         <h3>Unordered Lists</h3>
-        <ul>
+        <ul style="list-style-type: circle;" >
             <li>This is the first item</li>
             <li>This is the second item</li>
             <li>This is the third item</li>
@@ -92,21 +92,22 @@
         </ol>
         <br>
         <h3>Nested List</h3>
-        <ul list-style="square" >
+        <ul style="list-style-type:square;" >
             <li>Alex</li>
-                <ol>
+                <ol style="list-style-type: lower-roman">
                     <li>HTML</li>
                     <li>CSS</li>
                 </ol>
             <li>Nikki</li>
-                <ol>
+                <ol style="list-style-type: upper-roman">
                     <li>Javascript</li>
                     <li>C++</li>
                 </ol>
             <li>Talesa</li>
-                <ol>
+                <ol style="list-style-type: upper-alpha">
                     <li>NodeJS</li>
-                    <li>React</li>                </ol>
+                    <li>React</li>                
+                </ol>
         </ul>
         <br>
         <hr>
@@ -136,6 +137,56 @@
         <br>
 
         <!-- Forms -->
+        <h3>Form</h3>
+        <form action="" method="">
+            <!-- text input -->
+            <label for="firstName">What is your first name?</label>
+            <input type="text" name="firstName" id="firstName">
+            <br/>
+            <br/>
+            <!-- email input -->
+            <label for="email"> What is your email address?</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br/>
+            <!-- password input -->
+            <label for="password"> Enter a password</label>
+            <input type="password" name="password" id="password" placeholder="please use at least 8 characters">
+            <br>
+            <br>
+            <!--textarea input  -->
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter your comments here"></textarea>
+            <br>
+            <br/>
+            <!-- radio buttons -->
+            <p>Do you prefer working on Frontend or Backend?</p>
+            <input type="radio" name="favorite" id="coding1" value="frontend" checked>Frontend 
+            <br>
+            <input type="radio" name="favorite" id="coding2" value="backend">Backend
+            <br>
+            <br>
+            <!-- checkboxes -->
+            <p>Languages you are proficient in</p>
+            <input type="checkbox" name="programming" id="" value="javascript">Javascript
+            <br>
+            <input type="checkbox" name="programming" id="" value="python">Python
+            <br>
+            <input type="checkbox" name="programming" id="" value="sql">SQL
+            <br>
+            <br>
+            <!-- Select input type -->
+            <p>Select other proficiencies ( hold the ctrl button to select multiple options )</p>
+            <select name="proficiencies" id="" multiple>
+                <option value="react">React</option>
+                <option value="sassy">Sassy</option>
+                <option value="nodejs">NodeJS</option>
+                <option value="typescript">Typescript0</option>
+            </select>
+            <br>
+            <br>
+            <!-- input type of submit -->
+            <input type="submit" value="Submit Your Info">    
+        </form>
         <br>
         <hr>
         <br>
