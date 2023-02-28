@@ -38,13 +38,35 @@ The strong element changes the text to BOLD that is within the element tags.
 <br/>
 These should be used more than just styling. This should be used for accessibility emphasized
 <br/>
-
+<br/>
 ### Special Characters
 These can be inserted by preceding the code by the & sign. Example for Copyright we use "&copy" followed by the ";" semicolon. Codes are available for others on the web
-
+<br/>
+<br/>
 ### Unordered and Ordered lists
+Unordered list take ul tag and must contain the li (list item) tags in between to create the list. These are primarily used for navigation links. You can assign the list-style-type of bullet to be:
+* disc
+* circle
+* square
+* none
 
+<br/>
+Ordered require the ol tag and have different type of list-style-types. You can use
 
+* i for lower case roman numerals
+* I for upper case roman numerals
+* a for lower case letters
+* A for upper case letters
+* 1 for numbers
+<br/><br/>
+
+### Tables
+
+<br/><br/>
+
+### Forms
+
+<br/><br/>
 
 
 
