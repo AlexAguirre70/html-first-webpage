@@ -69,11 +69,12 @@ To create a table, we need to use the Table element and requires 3 things
 
 ### Forms
 Forms are used to collect user information and can be created using the form tag. This tag has 2 primary attributes that forms take:
+<br/>
 * action - this is the endpoint url where the data will be sent to
 * method - what method to use to send the data
 <br/>
 Forms also take lables and different types of input fields:
-<br>
+<br />
 * text - single line of text
 * textarea - more than 1 line of text
 * radio buttons - can only select one
@@ -96,30 +97,29 @@ Alternatively to using a label, the input field can take an attribute of placeho
 <br/>
 <br/>
 Another input field that can used is the value attribute. whatever we set this to, will automatically appear as the input in that field
-<br>
-<br>
+<br/>
+<br/>
 To add a **textarea** we need to add the textarea element. It takes 2 primary attributes to specify the height and width of the area. cols and rows.
-<br>
-<br>
+<br/>
+<br/>
 To add a **radio** button, we need to use the type radio, and give it a name. With radio buttons, we can only select 1 value. In addition, we need to create 1 input for each option, but it is important that they have the exact same name attribute so that only one choice can be selected. 
-<br> We also need to include the **value** attribute, so when the option is selected it can pass that value as data.
-<br>
+<br/> We also need to include the **value** attribute, so when the option is selected it can pass that value as data.
+<br/>
 If you want to  have a radio button selected by default you must add the special keyword "checked" to the input tag.
-<br>
-<br>
+<br/>
+<br/>
 To create **checkboxes** we need to use the checkbox type. They are setup the same way radio buttons are, but this input type allows us to select multiple options
-<br>
-<br>
+<br/>
+<br/>
 To use the select input we need to use the select tag and assign it a name attribute. Next, we must setup the options to select by using the option tag. The option tag takes the value attribute that is needed to pass that data when the form is submitted.
-<br>
+<br/>
 To allow to select multiple options, we must include the keyword "multiple" in the select input tag.
-<br>
-<br>
+<br/>
+<br/>
 
 The form lastly can take a **submit** element that tells the form to take the action needed for the data in the inputs. <br>
-We can use a button or an input with the type attribute as submit. This also takes a value attribute that displays the text to show on the button face.<br>
+We can use a button or an input with the type attribute as submit. This also takes a value attribute that displays the text to show on the button face.
+<br/>
 When clicking the submit button it adds the name and input value in the field an adds it to the action URL provided to send the data.
-<br/><br/>
-
-
-
+<br/>
+<br/>
