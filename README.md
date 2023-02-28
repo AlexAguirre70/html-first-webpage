@@ -26,5 +26,25 @@ You also add an empty/dummy link. This is simply a link that does not navigate a
 You can also wrap an image or a button rather than text with the a tag. When hovering the mouse pointer over it, it changes the icon to the clickable hand
 <br/><br/>
 
+### Other Element Types
+
+#### Sub and Sup
+The sub element places any test inside it lower than the normal text. The sup element puts it above
+<br/><br/>
+
+#### Strong and em
+The strong element changes the text to BOLD that is within the element tags. 
+<br> The em element italicized the text in between the tags.
+<br/>
+These should be used more than just styling. This should be used for accessibility emphasized
+<br/>
+
+### Special Characters
+These can be inserted by preceding the code by the & sign. Example for Copyright we use "&copy" followed by the ";" semicolon. Codes are available for others on the web
+
+### Unordered and Ordered lists
+
+
+
 
 
